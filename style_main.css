@@ -35,6 +35,10 @@ body {
     animation: slideRight 1s ease forwards;
 }
 
+/*.navbar {
+    margin-left: auto;
+}*/
+
 .navbar a{
     display: inline-block;
     font-size: 18px;
@@ -45,7 +49,7 @@ body {
     opacity: 0;
     animation: slideTop 1s ease forwards;
     transition: .3s;
-    animation-delay: calc(.2s * var(--i)) ;
+    animation-delay: calc(.2s * var(--i));
 }
 
 .navbar a:hover,
@@ -146,6 +150,9 @@ body {
     color: #1f242d;
     letter-spacing: 1px;
     font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 1.6s;
 }
 
 
