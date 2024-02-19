@@ -157,6 +157,28 @@ body {
     margin-bottom: 30px;
 }
 
+.elev {
+    font-size: 50px;
+    font-weight: 600px;
+    margin-bottom: 30px;
+    margin-left: 540px;
+    margin-top: 40px;
+}
+
+.youtube-portelev {
+    display: flex;
+    justify-content: flex-end; /* Align to the right */
+    align-items: center;
+    width: 60%; /* Set width to 60% of the viewport width */
+    margin-left: 17%; /* Adjust margin for spacing */
+}
+
+.youtube-portelev iframe {
+    width: 150%; /* Make the iframe fill its container */
+    height: 530px; /* Automatically adjust height */
+}
+
+
 .portfolio-content h2 {
     font-size: 21px;
     font-weight: 600px;
@@ -202,6 +224,26 @@ body {
     margin-top: -8px;
     margin-bottom: 50px;
     margin-left: 182px;
+}
+
+.elevback{
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #0ef;
+    text-decoration: none;
+    font-size: 16px;
+    color: #1f242d;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 260px;
+}
+
+.elevback:hover{
+    background-color: #fff;
 }
 
 .main {
@@ -264,6 +306,10 @@ body {
 }
 
 .back-button:hover {
+    background-color: #fff;
+}
+
+.prof:hover {
     background-color: #fff;
 }
 
