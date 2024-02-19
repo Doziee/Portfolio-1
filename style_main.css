@@ -371,6 +371,45 @@ body {
     margin-bottom: 20px;
 }
 
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0ef;
+}
+
+.contact-info {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.contact-item {
+    margin-bottom: 20px;
+}
+
+.contact-item span {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #0ef;
+}
+
+.contact-item a {
+    color: #555;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
 
 /* KEYFRAMES ANIMATION */
 @keyframes slideRight {
